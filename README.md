@@ -18,10 +18,10 @@ wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.13
 
 ## Start the Wazuh Agent
 
-Option 1 (recommended):
+### Option 1 (recommended):
 sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 
-Option 2 (alternative):
+### Option 2 (alternative):
 service wazuh-agent start
