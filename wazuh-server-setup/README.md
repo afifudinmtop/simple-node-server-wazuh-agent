@@ -11,7 +11,7 @@ cd /wazuh-docker-4.13.1/single-node
 
 ## System Configuration
 
-sudo sysctl -w vm.max_map_count=262144 
+sudo sysctl -w vm.max_map_count=262144  
 sudo rm -rf ./config/wazuh_indexer_ssl_certs  
 mkdir -p ./config/wazuh_indexer_ssl_certs
 
