@@ -4,8 +4,8 @@ Step-by-step guide to deploy **Wazuh 4.13.1** using Docker.
 
 ## Download & Extract
 
-https://github.com/wazuh/wazuh-docker/archive/refs/tags/v4.13.1.zip  
-unzip wazuh-docker-4.13.1.zip  
+wget https://github.com/wazuh/wazuh-docker/archive/refs/tags/v4.13.1.zip  
+unzip 4.13.1.zip  
 sudo chmod 777 -R ./wazuh-docker-4.13.1  
 cd /wazuh-docker-4.13.1/single-node
 
